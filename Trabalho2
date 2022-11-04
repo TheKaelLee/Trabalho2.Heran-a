@@ -1,0 +1,23 @@
+
+
+public class Pessoa {
+    public String nome;
+    public String cpf;
+    public String sobrenome;
+
+    public Pessoa(String _nome, String _cpf, String _sobrenome) {
+        this.nome = _nome;
+        this.cpf = _cpf;
+        this.sobrenome = _sobrenome;
+    }
+}
+Public class Conta extends Pessoa{
+    public Conta(String _nome, String _cpf, String _sobrenome){
+    super(_nome, _cpf, _sobrnome);
+
+      }
+}
+
+//Chamada
+
+Conta conta = new Conta("Jose", "123.456.789-00", "Francisco); 
